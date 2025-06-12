@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio to showcase my skills and projects. Designed with a clean layout and responsive design.",
+    "img": "https://i.ibb.co.com/DkmQTNP/Screenshot-2.png",
+    "link": "https://sami16.netlify.app/",
+    "tech": ["HTML", "CSS", "Tailwind", "JavaScript", "React"]
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Store",
+    "description": "An e-commerce site featuring product listings, a shopping cart, and user authentication.",
+    "img": "https://i.ibb.co.com/H2MCvHz/Screenshot-3.png",
+    "link": "https://lustrous-creponne-bec2ac.netlify.app/",
+    "tech": ["HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "id": 3,
+    "title": "Landing Page",
+    "description": "A landing page designed to promote a product, featuring responsive design and interactive elements.",
+    "img": "https://i.ibb.co.com/mJwp4kj/Screenshot-1.png",
+    "link": "https://frolicking-taffy-336307.netlify.app/",
+    "tech": ["HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "id": 4,
+    "title": "Search Engine Optimised web",
+    "description": "A Search Engine Optimised Website with API .",
+    "img": "https://i.ibb.co.com/rfKvVX8N/Screenshot-3.png",
+    "link": "https://moviemania01.netlify.app/",
+    "tech": ["HTML", "CSS", "Tailwind", "JS", "React", "SEO"]
+  }
+]
