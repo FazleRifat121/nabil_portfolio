@@ -3,6 +3,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { FaPython } from "react-icons/fa";
 import { SiJetpackcompose } from "react-icons/si";
 import { SiAndroidstudio } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 import { motion } from "framer-motion";
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -72,16 +73,16 @@ const Tech = () => {
           <FaPython className="text-7xl text-yellow-400" />
         </motion.div>
 
-        {/* react 
+        {/* firebase  */}
         <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-500 p-4 tooltip"
-          data-tip="React"
+          data-tip="Firebase"
         >
-          <FaReact className="text-7xl text-cyan-400" />
-        </motion.div> */}
+          <IoLogoFirebase className="text-7xl text-cyan-400" />
+        </motion.div>
       </div>
     </div>
   );
