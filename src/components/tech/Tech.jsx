@@ -1,9 +1,8 @@
-import { FaReact } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaJs } from "react-icons/fa";
+import { TbBrandKotlin } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaPython } from "react-icons/fa";
+import { SiJetpackcompose } from "react-icons/si";
+import { SiAndroidstudio } from "react-icons/si";
 import { motion } from "framer-motion";
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -22,58 +21,58 @@ const Tech = () => {
     <div className="border-b border-neutral-500 pb-24">
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        {/* html  */}
+        {/* kotlin  */}
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-500 p-4 tooltip"
-          data-tip="HTML"
+          data-tip="Kotlin"
         >
-          <FaHtml5 className="text-7xl text-amber-600" />
+          <TbBrandKotlin className="text-7xl text-amber-600" />
         </motion.div>
-        {/* css  */}
+        {/* Jetpackcompose  */}
         <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-500 p-4 tooltip"
-          data-tip="CSS"
+          data-tip="Jetpack compose"
         >
-          <FaCss3Alt className="text-7xl text-blue-500" />
+          <SiJetpackcompose className="text-7xl text-blue-500" />
         </motion.div>
-        {/* bootstrap  */}
+        {/*sql  */}
         <motion.div
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-500 p-4 tooltip"
-          data-tip="Bootstrap"
+          data-tip="SQL"
         >
-          <FaBootstrap className="text-7xl text-purple-600" />
+          <BiLogoPostgresql className="text-7xl text-purple-600" />
         </motion.div>
-        {/* tailwind  */}
+        {/* Androidstudio  */}
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-500 p-4 tooltip"
-          data-tip="Tailwind"
+          data-tip="Android studio"
         >
-          <RiTailwindCssFill className="text-7xl text-cyan-400" />
+          <SiAndroidstudio className="text-7xl text-cyan-400" />
         </motion.div>
-        {/* js  */}
+        {/* Python  */}
         <motion.div
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-500 p-4 tooltip"
-          data-tip="Javascript"
+          data-tip="Python"
         >
-          <FaJs className="text-7xl text-yellow-400" />
+          <FaPython className="text-7xl text-yellow-400" />
         </motion.div>
 
-        {/* react  */}
+        {/* react 
         <motion.div
           variants={iconVariants(4)}
           initial="initial"
@@ -82,7 +81,7 @@ const Tech = () => {
           data-tip="React"
         >
           <FaReact className="text-7xl text-cyan-400" />
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

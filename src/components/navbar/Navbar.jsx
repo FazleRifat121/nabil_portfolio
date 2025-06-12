@@ -37,7 +37,7 @@ const Navbar = () => {
     <div className="navbar my-5 ">
       <div className="navbar-start">
         <a href="/" className=" text-4xl hover:text-cyan-300">
-          Moneem
+          MM
         </a>
       </div>
 
