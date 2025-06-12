@@ -27,7 +27,7 @@ const Banner = () => {
             animate="visible"
             className="text-5xl font-bold"
           >
-            Fazle Rifat
+            MONEEM
           </motion.h1>
           {/* h2  */}
           <motion.h2
@@ -36,7 +36,7 @@ const Banner = () => {
             animate="visible"
             className="text-3xl font-bold pt-6 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent"
           >
-            Front-End Developer
+            Android App Developer | Kotlin & Jetpack Compose Specialist
           </motion.h2>
           {/* p  */}
           <motion.p
@@ -45,9 +45,9 @@ const Banner = () => {
             animate="visible"
             className="py-6  "
           >
-            Frontend Web Developer Crafting seamless and engaging web
-            experiences with a passion for design and innovation. Turning ideas
-            into interactive realities through clean code and creativity.
+            Crafting high-performance, scalable, and modern Android applications
+            using Kotlin, Jetpack Compose, Clean Architecture, and advanced
+            UI/UX — turning ideas into fully functional mobile solutions.
           </motion.p>
         </div>
       </div>
