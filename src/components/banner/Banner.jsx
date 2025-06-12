@@ -17,7 +17,7 @@ const Banner = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.8 }}
           src={img}
-          className="max-w-sm md:max-w-xl rounded-lg "
+          className="max-w-sm md:max-w-xl rounded-full ml-5"
         />
         <div>
           {/* h1  */}
@@ -27,7 +27,7 @@ const Banner = () => {
             animate="visible"
             className="text-5xl font-bold"
           >
-            MONEEM
+            Moneem
           </motion.h1>
           {/* h2  */}
           <motion.h2

@@ -43,42 +43,17 @@ const About = () => {
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              Hello! I’m MONEEM, a passionate and highly skilled Android App
-              Developer with expertise in Kotlin, Jetpack Compose, and
-              industry-level architecture. My journey into mobile development
-              began with a curiosity for how apps work, and has evolved into
-              full-stack mobile app development — building clean, scalable, and
-              production-ready Android applications.
-              <br />
-              I specialize in:
-              <br /> <br /> ✅ Jetpack Compose: Custom Composables, Slot APIs,
-              Animations, Paging 3, State Management, MVVM & Clean Architecture.
-              <br /> <br />
-              ✅ Backend Integration: Firebase (Realtime DB, Firestore, Auth,
-              FCM), REST APIs with Retrofit, complete API CRUD operations.
-              <br /> <br />
-              ✅ Storage Solutions: Room Database, DataStore Preferences &
-              Proto, SQLDelight (KMP).
-              <br /> <br />
-              ✅ Modern Architecture: MVVM, Clean Architecture, Repository
-              Pattern, Use Cases, Dependency Injection (Hilt/Dagger),
-              Modularization.
-              <br /> <br />
-              ✅ Asynchronous Programming: Kotlin Coroutines, Flow, StateFlow,
-              LiveData.
-              <br /> <br />
-              ✅ Advanced Android Components: CameraX, Media3, Notifications,
-              Permissions, Google Maps, Multimedia Storage.
-              <br /> <br />
-              ✅ Multiplatform Development: Kotlin Multiplatform (KMP), Compose
-              Multiplatform (Desktop, Mobile, Web).
-              <br /> <br />✅ Testing: Jetpack Compose UI Testing, Unit Testing,
-              Integration Testing. Every project I undertake is an opportunity
-              to refine my skills, solve complex problems, and deliver smooth,
-              performant, and user-friendly applications. I’m committed to
-              mastering the latest technologies and industry best practices to
-              bring innovative ideas to life exploring the endless possibilities
-              in web development.
+              Hello! I’m MONEEM, an Android App Developer specializing in
+              Kotlin, Jetpack Compose, and clean, production-ready architecture.
+              I build scalable, high-performance Android apps by combining
+              modern UI design, solid backend integration, and advanced
+              architectural patterns like MVVM and Clean Architecture. With
+              experience in Firebase, REST APIs, Room, DataStore, Hilt,
+              Coroutines, Flow, and Compose Multiplatform, I deliver smooth and
+              user-friendly mobile experiences. I’m passionate about solving
+              complex problems, writing clean and maintainable code, and
+              continuously exploring new technologies to create impactful mobile
+              applications.
             </motion.p>
           </div>
           <button className="btn-cv">
